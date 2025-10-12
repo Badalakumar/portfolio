@@ -105,7 +105,7 @@ nav .right a span {
 
 .hero-section .headshot img {
   width: 380px;
-  height:360px;
+  height:350px;
   border-radius: 50%;
 }
 
@@ -328,4 +328,5 @@ nav .right a span {
   .contact-section {
     padding: 0 20px;
   }
+
 }
