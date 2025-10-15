@@ -104,9 +104,9 @@ nav .right a span {
 }
 
 .hero-section .headshot img {
-  width: 290px;
-  height:340px;
-  border-radius: 50%;
+  width: 80%;
+  height:60%;
+  border-radius: 20%;
 }
 
 /* SECTION 2: Skills */
@@ -181,7 +181,8 @@ nav .right a span {
   width: 200px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 20%;
+  box-shadow: 10px 10px 60px rgb(118, 118, 127);
   margin-bottom: 10px;
 }
 
@@ -261,16 +262,15 @@ nav .right a span {
   .hero-section .headshot img {
   width: 290px;
   height:340px;
-  border-radius: 50%;
+  border-radius: 20%;
+  box-shadow: 20px 10px 50px black;
 }
   /* SECTION 1: Hero */
   .hero-section {
     flex-direction: column-reverse;
   }
 
-  .hero-section .headshot img {
-    width: 300px;
-  }
+  
 
   /* SECTION 3: Testimony */
   .testimony-section {
@@ -336,6 +336,4 @@ nav .right a span {
   }
 
 }
-
-
 
