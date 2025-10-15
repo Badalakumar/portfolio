@@ -104,7 +104,7 @@ nav .right a span {
 }
 
 .hero-section .headshot img {
-  width: 380px;
+  width: 290px;
   height:300px;
   border-radius: 50%;
 }
@@ -257,6 +257,12 @@ nav .right a span {
 }
 
 @media (max-width: 740px) {
+
+  .hero-section .headshot img {
+  width: 290px;
+  height:340px;
+  border-radius: 50%;
+}
   /* SECTION 1: Hero */
   .hero-section {
     flex-direction: column-reverse;
