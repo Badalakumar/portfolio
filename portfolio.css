@@ -107,6 +107,7 @@ nav .right a span {
   width: 80%;
   height:60%;
   border-radius: 20%;
+   box-shadow: 20px 10px 50px black;
 }
 
 /* SECTION 2: Skills */
@@ -258,7 +259,14 @@ nav .right a span {
 }
 
 @media (max-width: 740px) {
-
+.testimony-section .group .person-details img {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20%;
+  box-shadow: 10px 10px 60px rgb(118, 118, 127);
+  margin-bottom: 10px;
+}
   .hero-section .headshot img {
   width: 290px;
   height:340px;
@@ -336,4 +344,5 @@ nav .right a span {
   }
 
 }
+
 
